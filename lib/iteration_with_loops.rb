@@ -10,6 +10,8 @@ while i < src.length do
   inner_i = 0
   while inner_i < src[i].length do
     results_array << src[i][inner_i]
+    inner_i +=1
   end
+  i += 1
 end
 end
