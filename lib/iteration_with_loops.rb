@@ -9,7 +9,7 @@ while row_index < src.length do
 
   element_index = 0
   while element_index < src[row_index].length do
-    results_array << src[i][inner_i]
+    results_array << src[i][inner_i].even?
     element_index +=1
   end
   row_index += 1
